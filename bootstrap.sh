@@ -16,7 +16,7 @@ echo ".... Done!"
 echo "===> Installing Docker"
 sudo apt install docker.io -y > /dev/null 2>&1
 
-#alow ssh, http and https on firewall
+#allow ssh, http and https on firewall
 echo "===> Enabling guest firewall"
 sudo ufw allow ssh
 sudo ufw allow http
